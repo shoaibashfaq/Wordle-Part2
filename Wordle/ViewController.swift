@@ -19,6 +19,7 @@ class ViewController: UIViewController,
   private let segueIdentifier = "SettingsViewControllerSegue"
   
   override func viewDidLoad() {
+    print("Hi")
     super.viewDidLoad()
     
     setupNavigationBar()
