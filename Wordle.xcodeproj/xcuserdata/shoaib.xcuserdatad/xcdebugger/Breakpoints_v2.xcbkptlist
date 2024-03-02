@@ -14,10 +14,10 @@
             filePath = "Wordle/BoardController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
             landmarkName = "applyNumGuessesSettings(with:)"
-            landmarkType = "7">
+            landmarkType = "9">
             <Actions>
                <BreakpointActionProxy
                   ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
@@ -38,10 +38,10 @@
             filePath = "Wordle/BoardController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
             landmarkName = "applyNumGuessesSettings(with:)"
-            landmarkType = "7">
+            landmarkType = "9">
             <Actions>
                <BreakpointActionProxy
                   ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
@@ -56,16 +56,16 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "46D99DB5-5668-4338-9DC3-4CD7F674995D"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Wordle/BoardController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "110"
-            endingLineNumber = "110"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
             landmarkName = "applyIsAlienWordleSettings(with:)"
-            landmarkType = "7">
+            landmarkType = "9">
             <Actions>
                <BreakpointActionProxy
                   ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
@@ -76,63 +76,48 @@
             </Actions>
             <Locations>
                <Location
-                  uuid = "46D99DB5-5668-4338-9DC3-4CD7F674995D - b7e10309d4393448"
+                  uuid = "46D99DB5-5668-4338-9DC3-4CD7F674995D - d58b57a8abb32b5d"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Wordle.BoardController.applyIsAlienWordleSettings(with: Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; ()"
                   moduleName = "Wordle"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/shoaib/Documents/ios101-project2-wordle-starter/Wordle/BoardController.swift"
+                  urlString = "file:///Users/shoaib/Documents/Wordle-Part2/Wordle/BoardController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "111"
-                  endingLineNumber = "111"
-                  offsetFromSymbolStart = "36">
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "356">
                </Location>
                <Location
-                  uuid = "46D99DB5-5668-4338-9DC3-4CD7F674995D - b7e10309d43934a9"
+                  uuid = "46D99DB5-5668-4338-9DC3-4CD7F674995D - d58b57a8abb32b5d"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Wordle.BoardController.applyIsAlienWordleSettings(with: Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; ()"
                   moduleName = "Wordle"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/shoaib/Documents/ios101-project2-wordle-starter/Wordle/BoardController.swift"
+                  urlString = "file:///Users/shoaib/Documents/Wordle-Part2/Wordle/BoardController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "112"
-                  endingLineNumber = "112"
-                  offsetFromSymbolStart = "36">
-               </Location>
-               <Location
-                  uuid = "46D99DB5-5668-4338-9DC3-4CD7F674995D - b7e10309d4393467"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Wordle.BoardController.applyIsAlienWordleSettings(with: Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; ()"
-                  moduleName = "Wordle"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/shoaib/Documents/ios101-project2-wordle-starter/Wordle/BoardController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "110"
-                  endingLineNumber = "110"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
                   offsetFromSymbolStart = "88">
                </Location>
                <Location
-                  uuid = "46D99DB5-5668-4338-9DC3-4CD7F674995D - b7e10309d4393467"
+                  uuid = "46D99DB5-5668-4338-9DC3-4CD7F674995D - d58b57a8abb32b5d"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Wordle.BoardController.applyIsAlienWordleSettings(with: Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; ()"
                   moduleName = "Wordle"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/shoaib/Documents/ios101-project2-wordle-starter/Wordle/BoardController.swift"
+                  urlString = "file:///Users/shoaib/Documents/Wordle-Part2/Wordle/BoardController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "110"
-                  endingLineNumber = "110"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
                   offsetFromSymbolStart = "344">
                </Location>
             </Locations>
@@ -148,10 +133,10 @@
             filePath = "Wordle/BoardController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "109"
-            endingLineNumber = "109"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
             landmarkName = "applyIsAlienWordleSettings(with:)"
-            landmarkType = "7">
+            landmarkType = "9">
             <Locations>
                <Location
                   uuid = "E9462E9D-20ED-4624-BA17-90857C059A24 - b7e10309d4393467"

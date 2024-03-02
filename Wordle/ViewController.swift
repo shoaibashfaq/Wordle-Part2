@@ -19,7 +19,7 @@ class ViewController: UIViewController,
   private let segueIdentifier = "SettingsViewControllerSegue"
   
   override func viewDidLoad() {
-    print("Hi")
+    
     super.viewDidLoad()
     
     setupNavigationBar()
@@ -48,13 +48,24 @@ class ViewController: UIViewController,
     // in the function that you fire when the button is tapped
     // START YOUR CODE HERE
     // ...
+      
+      let leftButtonItem = UIBarButtonItem(title: "Reset Settig",
+                                               style: .plain,
+                                               target: self,
+                                               action: #selector(didResetSettings))
+      leftButtonItem.tintColor = .white
+      navigationItem.leftBarButtonItem = leftButtonItem
     // END YOUR CODE HERE
   }
   
   @objc private func didTapSettingsButton() {
     performSegue(withIdentifier: segueIdentifier, sender: nil)
   }
-  
+    
+  @objc private func didResetSettings(){
+      boardController.resetBoardWithCurrentSettings()
+    }
+    
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     guard segue.identifier == segueIdentifier else { return }
     let settingsViewController = segue.destination as! SettingsViewController

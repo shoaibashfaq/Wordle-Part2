@@ -30,6 +30,7 @@ class BoardController: NSObject,
     let rawTheme = SettingsManager.shared.settingsDictionary[kWordThemeKey] as! String
     let theme = WordTheme(rawValue: rawTheme)!
     self.goalWord = WordGenerator.generateGoalWord(with: theme)
+//    print(goalWord)
     super.init()
     collectionView.delegate = self
     collectionView.dataSource = self
@@ -49,8 +50,13 @@ class BoardController: NSObject,
   // This function should reset the board with the current settings without changing the goalWord
   // Tip: Take a look at how resetBoard is implemented above. The only difference is that you don't want to change the settings
   func resetBoardWithCurrentSettings() {
+
     // START YOUR CODE HERE
-    // ...
+      self.isAlienWordle=false
+      self.numItemsPerRow = 5
+      self.numRows = 6
+      collectionView.reloadData()
+
     // END YOUR CODE HERE
   }
   
