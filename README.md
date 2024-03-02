@@ -1,4 +1,4 @@
-# Project 2 - *Name of App Here*
+# Project 2 - *Wordle Part 2
 
 Submitted by: **Muhammed Ashfaq**
 <div>
@@ -10,27 +10,26 @@ Submitted by: **Muhammed Ashfaq**
     </a>
 </div>
 
-**Name of your app** is an app that ... [TODO] 
 
-Time spent: **X** hours spent in total
+Time spent: **2** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] User can change the number of letters per row (the length of the goal word)
-- [ ] User can change the numbers of rows on the board (how many guesses allowed)
-- [ ] User can select a new themed set to pull the goal word from
-- [ ] User can select "alien wordle", causing the goal word to change after each guess
+- [x] User can change the number of letters per row (the length of the goal word)
+- [x] User can change the numbers of rows on the board (how many guesses allowed)
+- [x] User can select a new themed set to pull the goal word from
+- [x] User can select "alien wordle", causing the goal word to change after each guess
 
 
 The following **optional** features are implemented:
 
-- [ ] App displays a reset button on the top left to reset the game (but make no changes to the settings)
+- [x] App displays a reset button on the top left to reset the game (but make no changes to the settings)
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
 
@@ -44,7 +43,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2024] [Muhammed Ashfaq]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
